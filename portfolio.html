@@ -12,15 +12,15 @@
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.7.0/modern-normalize.min.css"
 		/>
-		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" href="./css/main.min.css" />
 	</head>
 
 	<body>
-		<!-- Шапка сайта -->
+		<!-- header -->
 		<header class="container flex-container header-border">
 			<nav class="flex-container">
-				<!-- Основная навигация -->
-				<a href="./" class="logo" lang="en">
+				<!-- navigation -->
+				<a href="./" class="logo-header" lang="en">
 					<span class="logo-excerpt">Web</span>
 					Studio
 				</a>
@@ -37,7 +37,7 @@
 				</ul>
 			</nav>
 
-			<!-- Основные контакты -->
+			<!-- contacts -->
 			<address class="address-nav">
 				<a href="mailto:info@devstudio.com" class="link" aria-label="Ссылка на почту info@devstudio.com">
 					<svg class="address-nav-icon" width="16" height="12">
@@ -58,6 +58,8 @@
 			<div class="container">
 				<section class="section">
 					<h1 hidden>Портфолио</h1>
+
+					<!-- filter button -->
 					<ul class="filter">
 						<li>
 							<button type="button" class="filter-button">Все</button>
@@ -76,10 +78,11 @@
 						</li>
 					</ul>
 
-					<ul class="project-container">
-						<li>
+					<!-- project container -->
+					<ul class="project-container-list">
+						<li class="project-container-item">
 							<a href="">
-								<div class="position">
+								<div class="thumb-position">
 									<img src="./images/portfolio/img1.jpg" alt="Ноутбук" width="370" />
 									<p class="text-hover">
 										Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу
@@ -92,9 +95,10 @@
 								</div>
 							</a>
 						</li>
-						<li>
+
+						<li class="project-container-item">
 							<a href="">
-								<div class="position">
+								<div class="thumb-position">
 									<img src="./images/portfolio/img2.jpg" alt="Баскетбол" width="370" />
 									<p class="text-hover">
 										Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу
@@ -108,9 +112,9 @@
 							</a>
 						</li>
 
-						<li>
+						<li class="project-container-item">
 							<a href="">
-								<div class="position">
+								<div class="thumb-position">
 									<img src="./images/portfolio/img3.jpg" alt="Логотип" width="370" />
 									<p class="text-hover">
 										Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу
@@ -123,9 +127,10 @@
 								</div>
 							</a>
 						</li>
-						<li>
+
+						<li class="project-container-item">
 							<a href="">
-								<div class="position">
+								<div class="thumb-position">
 									<img src="./images/portfolio/img4.jpg" alt="Наушники" width="370" />
 									<p class="text-hover">
 										Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу
@@ -138,9 +143,10 @@
 								</div>
 							</a>
 						</li>
-						<li>
+
+						<li class="project-container-item">
 							<a href="">
-								<div class="position">
+								<div class="thumb-position">
 									<img src="./images/portfolio/img5.jpg" alt="Коробка" width="370" />
 									<p class="text-hover">
 										Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу
@@ -153,9 +159,10 @@
 								</div>
 							</a>
 						</li>
-						<li>
+
+						<li class="project-container-item">
 							<a href="">
-								<div class="position">
+								<div class="thumb-position">
 									<img src="./images/portfolio/img6.jpg" alt="Монитор" width="370" />
 									<p class="text-hover">
 										Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу
@@ -168,9 +175,10 @@
 								</div>
 							</a>
 						</li>
-						<li>
+
+						<li class="project-container-item">
 							<a href="">
-								<div class="position">
+								<div class="thumb-position">
 									<img src="./images/portfolio/img7.jpg" alt="Книга" width="370" />
 									<p class="text-hover">
 										Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу
@@ -183,9 +191,10 @@
 								</div>
 							</a>
 						</li>
-						<li>
+
+						<li class="project-container-item">
 							<a href="">
-								<div class="position">
+								<div class="thumb-position">
 									<img src="./images/portfolio/img8.jpg" alt="Лейбл" width="370" />
 									<p class="text-hover">
 										Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу
@@ -198,9 +207,10 @@
 								</div>
 							</a>
 						</li>
-						<li>
+
+						<li class="project-container-item">
 							<a href="">
-								<div class="position">
+								<div class="thumb-position">
 									<img src="./images/portfolio/img9.jpg" alt="Ноутбук" width="370" />
 									<p class="text-hover">
 										Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу
@@ -218,11 +228,11 @@
 			</div>
 		</main>
 
-		<!-- Футер -->
+		<!-- footer -->
 		<footer class="footer">
 			<div class="container flex-footer">
 				<div>
-					<a href="./" class="logo logo-footer" lang="en">
+					<a href="./" class="logo-footer" lang="en">
 						<span class="logo-excerpt">Web</span>
 						Studio
 					</a>
@@ -233,6 +243,7 @@
 						<a href="tel:+380961111111" class="tel">+38 096 111 11 11</a>
 					</address>
 				</div>
+
 				<div class="box-socials">
 					<b class="caption">присоединяйтесь</b>
 					<ul class="socials-footer flex-container">

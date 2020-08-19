@@ -1,12 +1,11 @@
 @import "./utils/variables";
 @import "./base/general-settings";
-// @import "./utils/placeholders";
 @import "./utils/mixins";
 @import "./layout/logo";
 @import "./layout/header";
 @import "./layout/hero";
 @import "./utils/visually-hidden";
-@import "./components/achievements-section";
+@import "./components/features-section";
 @import "./components/Our-works-section";
 @import "./components/Our-team-section";
 @import "./components/our-team-section\(Animation-card\)";
@@ -14,3 +13,5 @@
 @import "./layout/footer";
 @import "./components/modal";
 @import "./components/modal-forms";
+@import "./components/portfolio-section/buttons";
+@import "./components/portfolio-section/list-projects";
