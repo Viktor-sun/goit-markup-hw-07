@@ -1,4 +1,6 @@
-.header-border {
+.page-header {
+	display: flex;
+	align-items: center;
 	border-bottom: 1px solid #ececec;
 }
 
@@ -7,7 +9,11 @@
 	margin-left: 85px;
 }
 
-.list-nav .link {
+.list-nav__item:not(:last-child) {
+	margin-right: 50px;
+}
+
+.list-nav__link {
 	position: relative;
 
 	display: block;
@@ -32,11 +38,7 @@
 	}
 }
 
-.list-nav li:not(:last-child) {
-	margin-right: 50px;
-}
-
-.current {
+.list-nav__link--current {
 	color: $accent-color;
 
 	&::after {
@@ -76,7 +78,7 @@
 	margin-left: auto;
 }
 
-.address-nav > .link {
+.address-nav__link {
 	display: inline-flex;
 	align-items: center;
 	padding-top: 30px;
@@ -101,11 +103,11 @@
 	}
 }
 
-.address-nav .link + .link {
+.address-nav__link + .address-nav__link {
 	margin-left: 30px;
 }
 
-.address-nav-icon {
+.address-nav__icon {
 	margin-right: 10px;
 	--color1: currentColor;
 }

@@ -39,7 +39,7 @@
 	}
 }
 
-.modal-caption {
+.modal__caption {
 	display: inline-block;
 	margin-bottom: 30px;
 
@@ -51,7 +51,7 @@
 	color: $titles-text-color;
 }
 
-.button-modal-close {
+.modal__button--close {
 	position: absolute;
 	top: 8px;
 	right: 8px;

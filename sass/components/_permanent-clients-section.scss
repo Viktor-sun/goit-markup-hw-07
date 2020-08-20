@@ -1,8 +1,8 @@
-.flex-b {
-	justify-content: space-between;
+.permanent-clients {
+	@include flexCenter(flex, space-between);
 }
 
-.client {
+.permanent-clients__link {
 	@include flexCenter();
 	width: 170px;
 	height: 90px;

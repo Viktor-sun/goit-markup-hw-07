@@ -1,9 +1,13 @@
-.position-width {
+.section-works {
+	margin-bottom: 94px;
+}
+
+.our-works__item {
 	position: relative;
 	width: calc((100% - 60px) / 3);
 }
 
-.title-img {
+.our-works__title {
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -21,8 +25,4 @@
 	line-height: 1.14;
 	text-align: center;
 	text-transform: uppercase;
-}
-
-.section-works {
-	margin-bottom: 94px;
 }

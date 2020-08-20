@@ -1,4 +1,4 @@
-.features-icon {
+.features__icon {
 	box-sizing: content-box;
 	width: 70px;
 	height: 70px;
@@ -9,7 +9,7 @@
 	background-color: $secondary-background-color;
 }
 
-.features-title {
+.features__title {
 	margin-top: 0;
 	margin-bottom: 10px;
 
@@ -21,7 +21,7 @@
 	text-transform: uppercase;
 }
 
-.text {
+.features__text {
 	margin: 0;
 
 	font-weight: 400;
