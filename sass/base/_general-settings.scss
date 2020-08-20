@@ -2,7 +2,7 @@ body {
 	background-color: $background-color;
 	color: $primery-text-color;
 
-	font-family: "Roboto", sans-serif;
+	font-family: $font-general;
 	letter-spacing: 0.03em;
 }
 a {
