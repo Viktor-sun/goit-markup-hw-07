@@ -16,6 +16,15 @@
 	@extend %form-input;
 }
 
+.form-modal__input:valid:focus:required:not(:placeholder-shown) {
+	color: $accent-color;
+}
+
+.form-modal__input:invalid:required:not(:placeholder-shown) {
+	border-bottom-color: #d80606;
+	color: #d80606;
+}
+
 .form-modal__label {
 	position: absolute;
 	top: 50%;
